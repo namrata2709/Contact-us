@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    min-height:100%;
+    background: rgb(255,124,169);
+    background: linear-gradient(135deg, rgba(255,124,169,1) 0%, rgba(255,195,124,1) 100%);
+}
+.col{
+    min-height: 100vh;
+}
+.form-control{
+    font-weight: bolder;
+}
+.form-control:focus {
+    background-color: white!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    caret-color:#0275d8;
+    border-color: grey!important;
+}
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+ }
+ .btn-primary::after{
+    font-family: "FontAwesome";
+    content: "\f055";
+    float: right;
+ }
